@@ -1,0 +1,8 @@
+lex real.l
+yacc -d real.y
+gcc lex.yy.c y.tab.c
+./a.out
+
+input de ex: 
+(1,1)+(2,2) = <enter>
+(3,3) // da ca rezultat
